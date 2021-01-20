@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T08:40:40.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="RfdQeKICXaxhlVZPCW1Y" version="14.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-20T08:42:01.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="VX9twneWocBqEl-8UbpX" version="14.2.5" type="github">
   <diagram id="8jhjOeW3A8tFNFM3j3vJ" name="Page-1">
     <mxGraphModel dx="946" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -114,10 +114,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CpujZRGqxjHT9dfPmAvb-24" value="6" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=-0.029;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="CpujZRGqxjHT9dfPmAvb-42" edge="1">
+        <mxCell id="CpujZRGqxjHT9dfPmAvb-24" value="6" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="CpujZRGqxjHT9dfPmAvb-42" edge="1">
           <mxGeometry x="-0.8817" relative="1" as="geometry">
             <mxPoint x="1140" y="904" as="sourcePoint" />
-            <mxPoint x="1288" y="904" as="targetPoint" />
+            <mxPoint x="1370" y="1260" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1198" y="904" />
               <mxPoint x="1198" y="1307" />
@@ -165,16 +165,16 @@
           <mxGeometry y="90" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="CpujZRGqxjHT9dfPmAvb-41" value="Filter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=0;" parent="1" vertex="1">
-          <mxGeometry x="1418" y="1264" width="160" height="86" as="geometry" />
+          <mxGeometry x="1418" y="1264" width="160" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="CpujZRGqxjHT9dfPmAvb-42" value="+ thumbnail: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="CpujZRGqxjHT9dfPmAvb-41" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="CpujZRGqxjHT9dfPmAvb-42" value="+ filters: any&#xa;+ thumbnail: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="CpujZRGqxjHT9dfPmAvb-41" vertex="1">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
         </mxCell>
         <mxCell id="CpujZRGqxjHT9dfPmAvb-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="CpujZRGqxjHT9dfPmAvb-41" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="CpujZRGqxjHT9dfPmAvb-44" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="CpujZRGqxjHT9dfPmAvb-41" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="68" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="CpujZRGqxjHT9dfPmAvb-45" value="StickerContent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=0;" parent="1" vertex="1">
           <mxGeometry x="1788" y="1070" width="160" height="128" as="geometry" />
